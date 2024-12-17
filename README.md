@@ -6,5 +6,4 @@ Le serveur d'authentification a une configuration liée au jeton d'accès et à 
 
 Go to security -> API -> default audience to modify access policies and timing.
 
-To get  , we need to ensure we have grant type  for application and also scope is  when . Refer application yaml of cloud gateway.
 Pour obtenir un refresh token, nous devons nous assurer que nous avons un refresh token de type d'octroi pour l'application et que la portée est également offline_access provided lors retriving tokens. Reportez-vous au fichier yaml application propereties de l'app  cloud gateway.
