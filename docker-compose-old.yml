@@ -6,7 +6,7 @@ services:
       - '8761:8761'
     container_name: serviceregistry
   configserver:
-    image: 'formationcih/configserver:0.0.1'
+    image: 'formationcih/configservice:0.0.1'
     ports:
       - '9296:9296'
     container_name: configserver
